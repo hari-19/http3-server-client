@@ -1,0 +1,3 @@
+sudo ./venv/bin/python3 server.py --certificate ssl/ssl_cert.pem --private-key ssl/ssl_key.pem
+
+python client.py --ca-certs ssl/pycacert.pem https://localhost:443/1000
